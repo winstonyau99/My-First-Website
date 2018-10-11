@@ -1,0 +1,40 @@
+h1{
+  font-size: 40px;
+  color: orange;
+  font-family: "Arial";
+  padding:60px 45px 30px 15px;
+  /* top right bottom left */
+}
+p{
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+  font-family: "Arial";
+}
+/* that means you are editing the paragraph */
+.column{
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  /* you can represent margins and spaces in percent, pixels or in REM */
+
+
+  height: 100px;
+  background-color: blue;
+}
+.page{
+  margin: 0 auto
+  /*^ means center the boxes */
+}
+.projects{
+  width:75%;
+  margin: 0 auto;
+}
+.menu{
+  display:flex;
+  justify-content: center;
+}
+
+.menu > li{
+
+}
